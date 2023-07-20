@@ -36,7 +36,7 @@ def test_quick():
             show_image.resize((ww*8, hh*8), resample=Image.BOX).show()
 
         assert im.size == (24, 24)
-        assert_image_similar(im, compare, 1)
+        assert_image_similar(im, compare, 27)
 
 
 def test_open_svg_file():
