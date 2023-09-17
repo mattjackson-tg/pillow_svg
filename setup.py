@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
-requirements = ['Pillow>=7.0,<10']
+requirements = ['Pillow']
 
 setup_requirements = []
 
@@ -40,6 +40,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/gribbg/pillow_svg',
-    version='0.1.0',
+    version='0.1.1',
     zip_safe=False,
 )
